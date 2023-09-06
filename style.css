@@ -1,0 +1,61 @@
+*{
+    margin-top: 20px;
+    margin-left: 40px;
+    box-sizing: border-box;
+}
+#context{
+    font-size: 30px;
+    font-family: 'Brush Script MT',cursive;
+    display: flex;
+    flex-direction: column;
+    column-gap: 15px;
+}
+
+#play{
+    color: blue;
+    
+}
+
+#comp{
+    color: red;
+}
+
+#result{
+    color: black;
+}
+
+#buttons{
+    margin-left: 350px;
+    display: flex;
+    flex-direction: row;
+    row-gap: 8px;
+    margin-top: 30px;
+}
+
+#r{
+    background-color:	rgb(82, 161, 225);	
+    color: black;
+    width: 130px;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 5px;
+     border: none;
+}
+#p{
+    background-color:rgb(70,237,200);
+    color: black;
+    width: 130px;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 5px;
+     border: none;
+}
+#s{
+    background-color:	rgb(253,242,137);
+    color: black;
+    width: 130px;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 5px;
+     border: none;
+}
